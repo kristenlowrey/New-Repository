@@ -88,3 +88,17 @@ img {
   position: relative;
   top: 10px;
 }
+#tag {
+  text-align: center;
+  padding-top: 25px;
+}
+#github-link {
+  text-decoration: none;
+  font-weight: 700;
+  color: #5a6275;
+}
+#github-link:hover {
+  text-decoration: underline;
+  color: aliceblue;
+  transition: ease-in-out 200ms;
+}
