@@ -40,6 +40,11 @@ img {
   color: #5a6275;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
+.search:hover {
+  background-color: rgb(254, 222, 142);
+  transition: 200ms ease-in-out;
+  border: solid 2px rgb(249, 194, 60);
+}
 .main-emoji {
   font-size: 70px;
   opacity: 0.5;
