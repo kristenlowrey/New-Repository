@@ -23,12 +23,22 @@ img {
   opacity: 0.3;
   max-height: 800px;
 }
+/*ul li {
+  list-style-type: none;
+  text-align: right;
+  position: relative;
+  top: -55px;
+}*/
+.container {
+  max-width: 550px;
+  max-height: 800px;
+}
 .card-img {
   border-radius: 30px;
 }
 .card {
   margin: 10px auto;
-  max-width: 600px;
+  max-width: 550px;
   display: block;
   border: 2px solid white;
   border-radius: 30px;
@@ -38,6 +48,7 @@ img {
   padding: 2px 40px 2px 10px;
   border: solid 2px #bad7e7;
   color: #5a6275;
+  font-weight: 100;
 }
 .search {
   border-radius: 30px;
@@ -71,15 +82,22 @@ img {
 }
 #fahrenheit,
 #celsius {
-  font-size: 30px;
-  padding: 5px;
+  font-size: 20px;
   color: #5a6275;
   text-decoration: none;
+}
+#date {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  padding-left: 10px;
+  font-weight: 400;
 }
 .today-high-low {
   text-align: center;
   font-size: 30px;
   color: #5a6275;
+  font-weight: 300;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .row {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -98,6 +116,7 @@ img {
   top: -20px;
   text-align: right;
   color: #5a6275;
+  font-weight: 300;
 }
 .emoji {
   font-size: 50px;
@@ -106,7 +125,10 @@ img {
 }
 #tag {
   text-align: center;
-  padding-top: 25px;
+  position: relative;
+  bottom: 5px;
+  padding-top: 5px;
+  font-weight: 100;
 }
 #github-link {
   text-decoration: none;
