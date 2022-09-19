@@ -87,10 +87,20 @@ img {
   text-decoration: none;
 }
 #date {
+  padding-left: 10px;
+}
+#date,
+#description {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 18px;
-  padding-left: 10px;
   font-weight: 400;
+}
+#description {
+  text-align: right;
+  color: #5a6275;
+  position: relative;
+  top: -5px;
+  left: -10px;
 }
 .today-high-low {
   text-align: center;
