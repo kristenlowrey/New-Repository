@@ -9,7 +9,7 @@ h1,
 h1 {
   padding-top: 30px;
   padding-left: 5px;
-  font-size: 65px;
+  font-size: 55px;
   font-weight: 300;
   color: #5a6275;
 }
@@ -30,7 +30,7 @@ img {
   top: -55px;
 }*/
 .container {
-  max-width: 550px;
+  max-width: 600px;
   max-height: 800px;
 }
 .card-img {
@@ -74,17 +74,19 @@ img {
 }
 .current-temp {
   position: relative;
-  top: 15px;
+  top: 10px;
   text-align: right;
   font-size: 55px;
   font-weight: 300;
   color: #5a6275;
 }
+
 #fahrenheit,
 #celsius {
   font-size: 20px;
   color: #5a6275;
   text-decoration: none;
+  text-align: right;
 }
 #date {
   padding-left: 10px;
@@ -101,6 +103,7 @@ img {
   position: relative;
   top: -5px;
   left: -10px;
+  text-transform: capitalize;
 }
 .today-high-low {
   text-align: center;

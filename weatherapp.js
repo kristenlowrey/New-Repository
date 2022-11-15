@@ -50,5 +50,5 @@ function showTemperature(response) {
     response.data.main.temp
   );
   let descriptionElement = document.querySelector("#description");
-  descriptionElement.innerHTML = response.data.weather[0].main;
+  descriptionElement.innerHTML = response.data.weather[0].description;
 }
